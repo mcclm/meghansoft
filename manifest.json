@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Meghansoft",
+  "description": "Replace Microsoft everywhere",
+  "version": "1.0",
+  "homepage_url": "https://github.com/point9repeating/meghansoft",
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["meghan.js"]
+    }
+
+  ]
+
+
+}
